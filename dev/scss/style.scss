@@ -34,21 +34,33 @@
   font-display: swap;
 }
 
-.container {
-	h1 {
-		font-family: 'Inter';
-		font-weight: bold;
+// main menu
+.font {
+	font-family: 'Inter';
+	&--regular {
+		font-weight: normal;
 	}
-	h2 {
-		font-family: 'Inter';
-		font-weight: 600;
-	}
-	p {
-		font-family: 'Inter';
+	&--medium {
 		font-weight: 500;
 	}
-	button {
-		font-family: 'Inter';
-		font-weight: normal;
+	&--semibold {
+		font-weight: 600;
+	}
+	&--bold {
+		font-weight: bold;
+	}
+}
+
+.hero {
+	font-size: 1.1em;
+	&__para {
+		width: 80%;
+	}
+	&__btn {
+		background-color: #FFB400;
+		border: none;
+		border-radius: 0.25em;
+		padding: 0.8em;
+		width: 28%;
 	}
 }
