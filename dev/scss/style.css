@@ -93,4 +93,14 @@ body {
   padding: 0.8em;
   width: 28%;
 }
+
+.recommendation__para {
+  width: 90%;
+}
+
+.recommendation__starlist img {
+  width: 25px;
+  height: 25px;
+  margin-right: 0.5em;
+}
 /*# sourceMappingURL=style.css.map */

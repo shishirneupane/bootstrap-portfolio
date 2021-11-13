@@ -90,3 +90,16 @@ body {
 	}
 }
 
+// recommendation
+.recommendation {
+	&__para {
+		width: 90%;
+	}
+	&__starlist {
+		img {
+			width: 25px;
+			height: 25px;
+			margin-right: 0.5em;
+		}
+	}
+}
