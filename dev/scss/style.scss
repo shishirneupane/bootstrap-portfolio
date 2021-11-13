@@ -34,7 +34,16 @@
   font-display: swap;
 }
 
-// main menu
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #E5E5E5;
+}
+
 .font {
 	font-family: 'Inter';
 	&--regular {
@@ -51,6 +60,11 @@
 	}
 }
 
+.spacing {
+	margin: 7.5rem 0;
+}
+
+// main menu
 .hero {
 	font-size: 1.1em;
 	&__para {
@@ -62,5 +76,20 @@
 		border-radius: 0.25em;
 		padding: 0.8em;
 		width: 28%;
+	}
+}
+
+// services
+.services {
+	&__para {
+		width: 43%;
+		color: #767676;
+	}
+	&__cards {
+		&__card {
+			p {
+				color: #767676;
+			}
+		}
 	}
 }
