@@ -103,3 +103,13 @@ body {
 		}
 	}
 }
+
+// education__description
+.education {
+	&__description {
+		width: 95%;
+	}
+	hr {
+		margin: 1rem 0 2rem 0;
+	}
+}

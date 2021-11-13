@@ -103,4 +103,12 @@ body {
   height: 25px;
   margin-right: 0.5em;
 }
+
+.education__description {
+  width: 95%;
+}
+
+.education hr {
+  margin: 1rem 0 2rem 0;
+}
 /*# sourceMappingURL=style.css.map */
