@@ -58,10 +58,21 @@ body {
 	&--bold {
 		font-weight: bold;
 	}
+	&--span {
+		font-weight: normal;
+		font-size: 0.5em;
+	}
 }
 
 .spacing {
-	margin: 7.5rem 0;
+	margin: 7rem 0;
+}
+
+.para {
+	color: #767676;
+	&--width {
+		width: 43%;
+	}
 }
 
 // main menu
@@ -79,17 +90,3 @@ body {
 	}
 }
 
-// services
-.services {
-	&__para {
-		width: 43%;
-		color: #767676;
-	}
-	&__cards {
-		&__card {
-			p {
-				color: #767676;
-			}
-		}
-	}
-}

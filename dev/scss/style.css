@@ -61,8 +61,21 @@ body {
   font-weight: bold;
 }
 
+.font--span {
+  font-weight: normal;
+  font-size: 0.5em;
+}
+
 .spacing {
-  margin: 7.5rem 0;
+  margin: 7rem 0;
+}
+
+.para {
+  color: #767676;
+}
+
+.para--width {
+  width: 43%;
 }
 
 .hero {
@@ -79,14 +92,5 @@ body {
   border-radius: 0.25em;
   padding: 0.8em;
   width: 28%;
-}
-
-.services__para {
-  width: 43%;
-  color: #767676;
-}
-
-.services__cards__card p {
-  color: #767676;
 }
 /*# sourceMappingURL=style.css.map */
