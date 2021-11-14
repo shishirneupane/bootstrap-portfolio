@@ -105,11 +105,28 @@ body {
 }
 
 // education__description
-.education {
+.educationWork {
 	&__description {
 		width: 95%;
 	}
 	hr {
 		margin: 1rem 0 2rem 0;
 	}
+}
+
+// portfolio
+.grid-pic {
+	position: absolute;
+	opacity: 5%;
+}
+
+.grid-cover {
+	width: 310px;
+	height: 300px;
+	background-color: #ffb400f2;
+}
+
+.portfolio-imgs {
+	padding: 0 4.5rem;
+	background: #e2e1e1;
 }
