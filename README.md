@@ -1,6 +1,8 @@
 # bootstrap-portfolio
 
 ### Languages and Tools
+VSCode, HTML5, CSS3, Sass, Git, GitHub, Gulp.js, Bootstrap 5
+
 <img align="left" title="Visual Studio Code" alt="Visual Studio Code" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
 <img align="left" title="HTML5" alt="HTML5" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
 <img align="left" title="CSS3" alt="CSS3" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
@@ -22,7 +24,8 @@
 ### Step 1
 ```
 Run the 'npm install' command to install the required NPM packages.
-Also, install the above mentioned packages to devDependencies by running the command 'npm install --save-dev <package-name>'.
+Also, install the above mentioned packages to devDependencies by running the command 
+'npm install --save-dev <package-name>'.
 ```
 
 ### Step 2
