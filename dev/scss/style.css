@@ -78,6 +78,10 @@ body {
   width: 43%;
 }
 
+.bg-gray {
+  background-color: #F0F0F6;
+}
+
 .hero {
   font-size: 1.1em;
 }
@@ -126,5 +130,13 @@ body {
 .portfolio-imgs {
   padding: 0 4.5rem;
   background: #e2e1e1;
+}
+
+.contact-icon {
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #FFB400;
 }
 /*# sourceMappingURL=style.css.map */

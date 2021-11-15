@@ -75,6 +75,10 @@ body {
 	}
 }
 
+.bg-gray {
+	background-color: #F0F0F6;
+}
+
 // main menu
 .hero {
 	font-size: 1.1em;
@@ -129,4 +133,13 @@ body {
 .portfolio-imgs {
 	padding: 0 4.5rem;
 	background: #e2e1e1;
+}
+
+// contact information
+.contact-icon {
+	border: none;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background-color: #FFB400;
 }
