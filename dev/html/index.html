@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/dev/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/dev/css/all.min.css" />
     <link rel="stylesheet" href="/dev/scss/style.css" />
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
   </head>
 
   <body>
@@ -647,6 +648,25 @@
           </div>
         </div>
       </div>
+
+      <!-- map -->
+      <div class="spacing container bg-light">
+        <div class="px-1 py-3">
+          <div id="map"></div>
+        </div>
+      </div>
     </section>
+
+    <!-- JS script for map -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <script>
+      mapboxgl.accessToken = 'pk.eyJ1Ijoic2hpc2hpcm5ldXBhbmUiLCJhIjoiY2t3MDJqMGp5MmwwZjJ2bTl0NnVrcGhvMSJ9.vicVX9rwCLPzELCHX0iSkQ';
+      var map = new mapboxgl.Map({
+        container: "map",
+        style: "mapbox://styles/mapbox/streets-v11",
+        center: [-71.060982, 42.35725],
+        zoom: 18,
+      });
+    </script>
   </body>
 </html>
