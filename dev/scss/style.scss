@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Inter";
-  src: url("/dev/fonts/Inter-Regular.woff2") format("woff2"),
-    url("/dev/fonts/Inter-Regular.woff") format("woff");
+  src: url("/dist/fonts/Inter-Regular.woff2") format("woff2"),
+    url("/dist/fonts/Inter-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
   font-family: "Inter";
-  src: url("/dev/fonts/Inter-Medium.woff2") format("woff2"),
-    url("/dev/fonts/Inter-Medium.woff") format("woff");
+  src: url("/dist/fonts/Inter-Medium.woff2") format("woff2"),
+    url("/dist/fonts/Inter-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -18,8 +18,8 @@
 
 @font-face {
 	font-family: "Inter";
-	src: url("/dev/fonts/Inter-SemiBold.woff2") format("woff2"),
-		url("/dev/fonts/Inter-SemiBold.woff") format("woff");
+	src: url("/dist/fonts/Inter-SemiBold.woff2") format("woff2"),
+		url("/dist/fonts/Inter-SemiBold.woff") format("woff");
 	font-weight: 600;
 	font-style: normal;
 	font-display: swap;
@@ -27,8 +27,8 @@
 
 @font-face {
   font-family: "Inter";
-  src: url("/dev/fonts/Inter-Bold.woff2") format("woff2"),
-    url("/dev/fonts/Inter-Bold.woff") format("woff");
+  src: url("/dist/fonts/Inter-Bold.woff2") format("woff2"),
+    url("/dist/fonts/Inter-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;

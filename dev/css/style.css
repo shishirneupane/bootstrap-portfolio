@@ -5,7 +5,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "Inter";
   src: url("/dist/fonts/Inter-Medium.woff2") format("woff2"), url("/dist/fonts/Inter-Medium.woff") format("woff");
@@ -13,7 +12,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "Inter";
   src: url("/dist/fonts/Inter-SemiBold.woff2") format("woff2"), url("/dist/fonts/Inter-SemiBold.woff") format("woff");
@@ -21,7 +19,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "Inter";
   src: url("/dist/fonts/Inter-Bold.woff2") format("woff2"), url("/dist/fonts/Inter-Bold.woff") format("woff");
@@ -29,12 +26,10 @@
   font-style: normal;
   font-display: swap;
 }
-
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -42,25 +37,20 @@ body {
 }
 
 .font {
-  font-family: 'Inter';
+  font-family: "Inter";
 }
-
 .font--regular {
   font-weight: normal;
 }
-
 .font--medium {
   font-weight: 500;
 }
-
 .font--semibold {
   font-weight: 600;
 }
-
 .font--bold {
   font-weight: bold;
 }
-
 .font--span {
   font-weight: normal;
   font-size: 0.5em;
@@ -73,7 +63,6 @@ body {
 .para {
   color: #767676;
 }
-
 .para--width {
   width: 43%;
 }
@@ -85,11 +74,9 @@ body {
 .hero {
   font-size: 1.1em;
 }
-
 .hero__para {
   width: 80%;
 }
-
 .hero__btn {
   background-color: #FFB400;
   border: none;
@@ -101,7 +88,6 @@ body {
 .recommendation__para {
   width: 90%;
 }
-
 .recommendation__starlist img {
   width: 25px;
   height: 25px;
@@ -111,7 +97,6 @@ body {
 .educationWork__description {
   width: 95%;
 }
-
 .educationWork hr {
   margin: 1rem 0 2rem 0;
 }
@@ -144,4 +129,3 @@ body {
   width: 100%;
   height: 400px;
 }
-/*# sourceMappingURL=style.css.map */

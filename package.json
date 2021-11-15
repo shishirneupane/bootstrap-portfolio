@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/dist/html/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shishirneupane/bootstrap-portfolio.git"
+  },
+  "author": "Shishir Neupane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shishirneupane/bootstrap-portfolio/issues"
+  },
+  "homepage": "https://github.com/shishirneupane/bootstrap-portfolio#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-image": "^6.2.1",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.43.4"
+  }
+}
